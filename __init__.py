@@ -12,7 +12,7 @@ import os, random
 
 class sullenlook(Plugin):
 
-    @register("de-DE",".*Daniel Mirring.*sullenlook.*koksi.*")
+    @register("de-DE",".*Daniel Mir ring.*sullen look.*kh:offte.*")
     def st_catfact(self, speech, language):
         if language == 'de-DE':
             filename = "./plugins/sullenlook/sullenlook.txt"
